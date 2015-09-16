@@ -4,15 +4,15 @@ Part of [lucidity](http://lucidity.io) project.
 
 ## OSC wrapper for lucidity
 
-Usage example:
+Simple usage example:
 
   ```Javascript
   const osc = require ( 'lucy-osc' )
 
   osc.on
-  ( '/hello'
+  ( '/wii/1/button/B'
   , function ( url, value )
-    { console.log ( url, value )
+    { console.log ( value )
     }
   )
   ```
@@ -39,4 +39,4 @@ Add unit tests for any new or changed functionality.
 
 ## Release History
 
-  * 0.1.0
+  * 0.1.0 (2015-09-16) Initial release.

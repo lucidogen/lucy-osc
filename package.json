@@ -1,6 +1,6 @@
 {
   "name": "lucy-osc",
-  "version": "0.0.1",
+  "version": "0.1.0",
   "description": "OpenSoundControl wrapper for Lucidity.",
   "main": "lib/index.js",
   "license": "MIT",
