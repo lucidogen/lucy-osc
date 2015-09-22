@@ -1,12 +1,18 @@
 # Lucy OSC [![Build Status](https://travis-ci.org/lucidogen/lucy-live.svg)](https://travis-ci.org/lucidogen/lucy-osc)
 
+Simple OSC server and sync utility.
+
 Part of [lucidity](http://lucidity.io) project.
 
-## OSC wrapper for lucidity
+## Installation
 
-Simple usage example:
+  ```shell
+  npm install lucy-osc --save
+  ```
 
-  ```Javascript
+## Usage example
+
+  ```js
   const osc = require ( 'lucy-osc' )
 
   osc.on
@@ -17,13 +23,6 @@ Simple usage example:
   )
   ```
 
-## Installation
-
-Currently only works with [**io.js**](https://iojs.org).
-
-  ```shell
-  npm install lucy-osc --save
-  ```
 
 ## Tests
 
